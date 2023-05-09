@@ -59,3 +59,46 @@ nav {
     font-size: 18px;
     }
 
+    footer {
+        background-color: #f0f0f0;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .coluna {
+        width: 45%;
+      }
+      
+      .coluna h3 {
+        color: #333;
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      
+      .coluna p {
+        color: #666;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      
+      .coluna ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .coluna ul li {
+        margin-bottom: 10px;
+      }
+      
+      .coluna ul li a {
+        color: #666;
+        font-size: 14px;
+        text-decoration: none;
+      }
+      
+      .coluna ul li a:hover {
+        text-decoration: underline;
+      }
+      

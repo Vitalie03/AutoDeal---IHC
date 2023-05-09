@@ -88,7 +88,7 @@ nav {
         vertical-align: middle;
         margin-bottom: 0; /* Add this line to remove the bottom margin */
     }
-    
+
     .container {
         position: relative;
         background-image: url("fundo.jpg");
@@ -98,3 +98,18 @@ nav {
         height: 100%;
         filter: blur(8px); /* Adding blur background image */
     }
+
+    .custom-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #ffffff;
+        color: #333333;
+        border: 2px solid #dddddd;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+      }
+      
+      .custom-button:hover {
+        background-color: #eeeeee;
+      }
