@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Procura de Carros em Leilões</title>
+	<link rel="stylesheet" type="text/css" href="leilao.css">
+</head>
+<body>
+	<nav>
+		<div class="logo">
+			<h1>Autodeal</h1>
+		</div>
+		<ul>
+			<li><a href="#">Início</a></li>
+			<li><a href="#">Mecânicos</a></li>
+			<li><a href="#">Sobre nós</a></li>
+			<li><a href="#">Contato</a></li>
+			<li><a href="#">Entrar/Criar Conta</a></li>
+		</ul>
+	</nav>
+
+	<section id="search-form">
+		<h2>Procura de Carros em Leilões</h2>
+		<form>
+			<label for="marca">Marca:</label>
+			<input type="text" id="marca" name="marca">
+
+			<label for="modelo">Modelo:</label>
+			<input type="text" id="modelo" name="modelo">
+
+			<label for="combustivel">Combustível:</label>
+			<select id="combustivel" name="combustivel">
+                <option value="gasolina">Todos</option>
+				<option value="gasolina">Gasolina</option>
+				<option value="diesel">Diesel</option>
+				<option value="eletrico">Elétrico</option>
+			</select>
+
+			<label for="segmento">Segmento:</label>
+			<input type="text" id="segmento" name="segmento">
+
+			<label for="cilindrada">Cilindrada:</label>
+			<input type="text" id="cilindrada" name="cilindrada">
+
+			<label for="potencia">Potência:</label>
+			<input type="text" id="potencia" name="potencia">
+
+			<label for="portas">Nº de Portas:</label>
+			<input type="number" id="portas" name="portas" min="2" max="5">
+
+			<label for="cor">Cor:</label>
+			<input type="text" id="cor" name="cor">
+
+			<label for="avaliacao">Avaliação de Mecânico (0-10):</label>
+            <input type="range" id="avaliacao" name="avaliacao" min="0" max="10" step="1">
+
+            <a href="resultado_leilao.html"  input type="submit" class="button">Procurar</a>
+
+		</form>
+	</section>
+</body>
+</html>
