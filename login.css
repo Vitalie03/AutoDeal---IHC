@@ -1,0 +1,100 @@
+nav {
+    background-color: #1E8993;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+    nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    }
+    
+    nav ul li {
+    margin-right: 20px;
+    }
+    
+    nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    }
+    
+    body {
+        background-color: #f2f2f2;
+        background-image: url("fundo.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        backdrop-filter: blur(5px);
+    }
+
+    form {
+        background-color: #1E8993;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 40px;
+        font-size: 30px;
+        color: #ccc
+    }
+
+    label {
+        display: block;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        border: 1px solid #ccc;
+        border-radius: 1px;
+        font-size: 16px;
+        padding: 10px;
+        width: 95%;
+        margin-bottom: 10px;
+    }
+
+    input[type="submit"] {
+        background-color: #F0FFFF;
+        border: none;
+        color: #000000;
+        cursor: pointer;
+        font-size: 16px;
+        padding: 10px;
+        width: 50%;
+        margin-bottom: 50px;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #1E8993;
+    }
+
+    p {
+        text-align: center;
+    }
+      
+    p label {
+        display: inline-block;
+        vertical-align: middle;
+        margin-bottom: 0; /* Add this line to remove the bottom margin */
+    }
+    
+    .container {
+        position: relative;
+        background-image: url("fundo.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        filter: blur(8px); /* Adding blur background image */
+    }
