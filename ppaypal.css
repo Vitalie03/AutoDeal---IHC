@@ -1,0 +1,131 @@
+nav {
+    background-color: #1E8993;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+    nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    }
+    
+    nav ul li {
+    margin-right: 20px;
+    }
+    
+    nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    }
+    
+    body {
+        background-color: #f2f2f2;
+        background-image: url("fundo.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 0.9;
+    }
+
+    form {
+        background-color: #1E8993;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+
+    input[type="text"],
+    input[type="password"] {
+        border: 1px solid #ccc;
+        border-radius: 1px;
+        font-size: 16px;
+        padding: 10px;
+        width: 95%;
+        margin-bottom: 10px;
+    }
+
+    input[type="submit"] {
+        background-color: #F0FFFF;
+        border: none;
+        color: #000000;
+        cursor: pointer;
+        font-size: 16px;
+        padding: 10px;
+        width: 50%;
+        margin-bottom: 50px;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #1E8993;
+    }
+
+    h4 {
+        text-align: left;
+        margin-top: 20px;
+        font-size: 10px;
+        color: #ccc;
+    }
+
+    p {
+        text-align: center;
+        color: #ccc;
+        font-size: 20px;
+    }
+ 
+    footer {
+        background-color: #f0f0f0;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 200px;
+      }
+      
+      .coluna {
+        width: 45%;
+      }
+      
+      .coluna h3 {
+        color: #333;
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      
+      .coluna p {
+        color: #666;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      
+      .coluna ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .coluna ul li {
+        margin-bottom: 10px;
+      }
+      
+      .coluna ul li a {
+        color: #666;
+        font-size: 14px;
+        text-decoration: none;
+      }
+      
+      .coluna ul li a:hover {
+        text-decoration: underline;
+      }
