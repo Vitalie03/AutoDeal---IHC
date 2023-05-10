@@ -1,7 +1,3 @@
-.container {
-    margin: 0 300px;
-}
-
 /* --------------------------- Navbar --------------------------- */
 /* Add a black background color to the top navigation */
 .topnav {
@@ -58,6 +54,7 @@
 
 
 
+
 /* --------------------------- Cards --------------------------- */
 * {
   box-sizing: border-box;
@@ -70,7 +67,7 @@
 /* Float four columns side by side */
 .column_ {
   float: left;
-  width: 50%;
+  width: 33.3%;
   padding: 0 10px;
   position: relative;
 }
@@ -91,9 +88,11 @@
   padding: 16px;
   text-align: center;
   background-color: #18727B;
+  height: 400px;
+
 }
 
-.card_ h1{
+.card_ h3{
   color: white;
 }
 
@@ -120,13 +119,48 @@
   border: none;
   cursor: pointer;
   border-radius: 5px;
-  margin-top: 250px;
+  margin-top: 170px;
 }
 .container .btn:hover {
   background-color: white;
 }
+
+.card_ img{
+  width: 70%;
+}
+
 /* --------------------------- Cards --------------------------- */
 
+
+/* --------------------------- Premium --------------------------- */
+.box {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #18727B;
+  width: 70%;
+  color: white;
+  font-size: 20px;
+  padding: 20px 20px;
+}
+
+.Ptitle img{
+  width: 8%;
+}
+
+.box button{
+  background-color: #000000;
+  color: white;
+  font-size: 20px;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-left: 270px;
+}
+/* --------------------------- Premium --------------------------- */
 
 
 /* --------------------------- Footer --------------------------- */
