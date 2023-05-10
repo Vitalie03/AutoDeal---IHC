@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Adesão ao Serviço Premium</title>
+  <link rel="stylesheet" type="text/css" href="css/pagina_subs_premium.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <h1>Autodeal</h1>
+    </div>
+    <ul>
+      <li><a href="#">Início</a></li>
+      <li><a href="#">Mecânicos</a></li>
+      <li><a href="#">Sobre nós</a></li>
+      <li><a href="#">Contato</a></li>
+      <li><a href="#">Entrar/Criar Conta</a></li>
+    </ul>
+  </nav>
+  <section id="search-form">
+  <main>
+    <h2>Adesão ao Serviço Premium</h2>
+   <p> Adira já por apenas 9,99€/mês</p>
+    <p>Vantagens:</p>
+    <p>- Mais 1 ano extra de garantia na compra de carros usados</p>
+    <p>- Disponivel uma lista de mecânicos certificados para verificar o estado da viatura</p>
+    <p>- Pagamento seguro através da plataforma</p>
+    <p>-Acesso aos Leilões de carros</p>
+       
+    <form>
+      <label for="cc">Nº Cartão de Cidadão:</label>
+      <input type="text" id="cc" name="cc" required>
+
+      <label for="cidade">Cidade:</label>
+      <input type="text" id="cidade" name="cidade" required>
+
+      <label for="nif">NIF:</label>
+      <input type="text" id="nif" name="nif" required>
+
+      <label for="morada">Morada:</label>
+      <input type="text" id="morada" name="morada" required>
+
+      <label for="iban">IBAN:</label>
+      <input type="text" id="iban" name="iban" required>
+
+      <label for="cp">Código Postal:</label>
+      <input type="text" id="cp" name="cp" required>
+
+      <h3>Opções de Pagamento:</h3>
+      <input type="radio" id="paypal" name="pagamento" value="paypal">
+      <label for="paypal">Paypal</label><br>
+
+      <input type="radio" id="mbway" name="pagamento" value="mbway">
+      <label for="mbway">MBWay</label><br>
+
+      <input type="radio" id="cartao" name="pagamento" value="cartao">
+      <label for="cartao">Cartão de Crédito</label><br>
+
+      <button type="submit">Aderir</button>
+    </form>
+  </main>
+  </section>
+  <footer>
+    <div class="coluna">
+      <ul>
+        <li><a href="#">SOBRE NÓS</a></li>
+        <li><a href="#">Ajuda</a></li>
+        <li><a href="#">Contacto</a></li>
+        <li><a href="#">Livro de Reclamações online</a></li>
+        <li><a href="#">Denúncias no site</a></li>
+      </ul>
+    </div>
+    <div class="coluna">
+      <h3>Segue-nos nas redes:</h3>
+      <ul>
+        <li><a href="#">Facebook <i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a href="#">Instagram <i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <li><a href="#">Twitter <i class="fa fa-twitter" aria hidden="true"></i></a></li>
+        </ul>
+        </div>
+        
+          </footer>
+        </body>
+        </html>
+
+        <script>
+            // Obtém o botão "Aderir"
+            var aderirButton = document.querySelector("button[type='submit']");
+          
+            // Adiciona um evento de clique ao botão
+            aderirButton.addEventListener("click", function() {
+              // Obtém o valor da opção de pagamento selecionada
+              var pagamentoSelecionado = document.querySelector("input[name='pagamento']:checked").value;
+              
+              // Redireciona para a página correspondente com base na opção de pagamento
+              switch (pagamentoSelecionado) {
+                case "paypal":
+                  window.location.href = "paypal.html";
+                  break;
+                case "mbway":
+                  window.location.href = "mbway.html";
+                  break;
+                case "cartao":
+                  window.location.href = "cartaocredi.html";
+                  break;
+                default:
+                  // Opção de pagamento inválida
+                  alert("Selecione uma opção de pagamento válida");
+                  break;
+              }
+            });
+          </script>
+          
