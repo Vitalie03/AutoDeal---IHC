@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Venda o seu carro</title>
+	<link rel="stylesheet" type="text/css" href="venda.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+	<nav>
+        <div class="logo">
+            <h1><div class="content">
+                    <div class="image">
+                    <img src="logo.jpg" alt="Logo" width="250" height="70" align="center">
+                </div>
+            </h1>
+        </div>
+		<ul>
+			<li><a href="#">Início</a></li>
+			<li><a href="lista_mecanicos.html">Mecânicos</a></li>
+			<li><a href="#">Sobre nós</a></li>
+			<li><a href="#">Contato</a></li>
+            <li><a href="login.html">PREMIUM</a></li>
+			<li><a href="perfil.html">Perfil</a></li>
+		</ul>
+	</nav>
+    <h1>Venda o seu carro</h1>
+
+    <h4>Detalhes do Veículo:</h4>
+        <label for="matricula">Matrícula</label>
+        <input type="text" id="matricula" name="matricula"><br><br>
+        <label for="km">Quilómetros(km)</label>
+        <input type="text" id="km" name="km"><br><br>
+    
+    <h4>Detalhes técnicos:</h4>
+        <label for="mes">Mês de registo</label>
+        <input type="text" id="mes" name="mes"><br><br>
+        <label for="marca">Marca</label>
+        <input type="text" id="marca" name="marca"><br><br>
+        <label for="combustivel">Combustível</label>
+        <input type="text" id="combustivel" name="combustivel"><br><br>
+        <label for="cilindrada">Cilindrada</label>
+        <input type="text" id="cilindrada" name="cilindrada"><br><br>
+        <label for="segmento">Segmento</label>
+        <input type="text" id="segmento" name="segmento"><br><br>
+
+        <label for="ano">Ano</label>
+        <input type="text" id="ano" name="ano"><br><br>
+        <label for="modelo">Modelo</label>
+        <input type="text" id="modelo" name="modelo"><br><br>
+        <label for="potencia">Potência</label>
+        <input type="text" id="potencia" name="potencia"><br><br>
+        <label for="numero">Nº de Portas</label>
+        <input type="text" id="numero" name="numero"><br><br>
+        <label for="cor">Cor</label>
+        <input type="text" id="cor" name="cor"><br><br>
+
+    <h4>Detalhes adicionais:</h4>
+        <label for="mudanças">Nº de mudanças</label>
+        <input type="text" id="mudanças" name="mudanças"><br><br>
+        <label for="autonomia">Autonomia Maxima</label>
+        <input type="text" id="autonomia" name="autonomia"><br><br>
+        <label for="IUC">IUC</label>
+        <input type="text" id="IUC" name="IUC"><br><br>
+        <label for="classe">Classe do veículo</label>
+        <input type="text" id="classe" name="classe"><br><br>
+
+        <h4>Detalhes Premium:</h4>
+        <label for="mudanças">Nome do mecânico que verificou o veiculo</label>
+        <input type="text" id="mudanças" name="mudanças"><br><br>
+        <label for="autonomia">Contacto do mecânico que verificou o veiculo</label>
+        <input type="text" id="autonomia" name="autonomia"><br><br>
+        <label for="IUC">Localidade do mecânico que verificou o veiculo</label>
+        <input type="text" id="IUC" name="IUC"><br><br>
+        <label for="classe">Avaliação e informações dadas sobre o veiculo pelo mecânico </label>
+        <input type="text" id="classe" name="classe"><br><br>
+
+    <h4>Fotografias do veículo:</h4>
+        <!-- Formulário para upload de fotos -->
+        <form action="upload.php" method="POST" enctype="multipart/form-data">
+          <input type="file" name="photo" accept="image/*">
+        </form>
+      </div>
+
+    <h4>Descrição do veículo:</h4>
+        <div class="text-box">
+            <input type="text" placeholder="Informações adicionais sobre o veículo:">
+        </div>
+
+    <h4>Preço (em €):</h4>
+        <input type="text" id="preço" name="preço"><br><br>
+
+    <h4>Localização:</h4>
+        <div class="info-box">
+            <img src="example.jpg" alt="Imagem de exemplo">
+  
+            <label for="distrito">Distrito</label>
+            <input type="text" id="distrito" name="distrito">
+        
+            <label for="morada">Morada</label>
+            <input type="text" id="morada" name="morada">
+        
+            <label for="cidade">Cidade</label>
+            <input type="text" id="cidade" name="cidade">
+
+            <label for="codigo">Código-postal</label>
+            <input type="text" id="codigo" name="codigo">
+        </div>
+
+    <h4>Certificado da qualidade do produto: </h4>    
+        <form action="upload.php" method="POST" enctype="multipart/form-data">
+        <input type="file" name="photo" accept="image/*">
+      </form>
+
+    <button type="submit">Publicar</button>
+
+
+
