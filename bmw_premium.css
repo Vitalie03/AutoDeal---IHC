@@ -1,0 +1,128 @@
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9;
+  }
+  
+  .btn-primary:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+  }
+  
+
+h2 {
+    color: #333;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:darkgrey;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff; /* Fundo branco para o contêiner */
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#search-form {
+    padding: 20px;
+    text-align: center;
+}
+/* Estilos do menu de navegação */
+nav {
+    background-color: #1E8993;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+    nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    }
+    
+    nav ul li {
+    margin-right: 20px;
+    }
+    
+    nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    }
+
+    footer {
+        background-color: #f0f0f0;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .coluna {
+        width: 45%;
+      }
+      
+      .coluna h3 {
+        color: #333;
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      
+      .coluna p {
+        color: #666;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      
+      .coluna ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .coluna ul li {
+        margin-bottom: 10px;
+      }
+      
+      .coluna ul li a {
+        color: #666;
+        font-size: 14px;
+        text-decoration: none;
+      }
+      
+      .coluna ul li a:hover {
+        text-decoration: underline;
+      }
+      
