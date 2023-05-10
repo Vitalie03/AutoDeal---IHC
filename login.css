@@ -27,7 +27,7 @@ nav {
         background-image: url("fundo.jpg");
         background-size: cover;
         background-repeat: no-repeat;
-        backdrop-filter: blur(5px);
+        opacity: 0.9;
     }
 
     form {
