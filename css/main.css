@@ -1,57 +1,3 @@
-.container {
-    margin: 0 300px;
-}
-
-/* --------------------------- Navbar --------------------------- */
-/* Add a black background color to the top navigation */
-.topnav {
-    background-color: #18727B;
-    overflow: hidden;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    /*float: left;      tirar*/ 
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-
-  /* Right-aligned links */
-  .topnav-right {
-    float: right;
-    font-size: 25px;
-    height: 50px;
-  }
-
-  /*hambuguer*/
-  .topnav-right i{
-    font-size: 40px;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
-
-  /* Hamburguer NavBar */
-  .hamburguer_icon {
-    color: #f2f2f2;
-    
-  }
-/* --------------------------- Navbar --------------------------- */
-
-
-
 /* --------------------------- Carousel --------------------------- */
 
 /* --------------------------- Carousel --------------------------- */
@@ -91,6 +37,7 @@
   padding: 16px;
   text-align: center;
   background-color: #18727B;
+  height: 460px;
 }
 
 .card_ h1{
@@ -120,15 +67,43 @@
   border: none;
   cursor: pointer;
   border-radius: 5px;
-  margin-top: 250px;
+  margin-top: 200px;
 }
 .container .btn:hover {
   background-color: white;
+}
+
+.card_ img{
+  width: 60%;
 }
 /* --------------------------- Cards --------------------------- */
 
 
 
 /* --------------------------- Footer --------------------------- */
+.icon {
+  width: 60px;
+}
 
+.col-6 p{
+  font-size: 20px;
+}
+
+.icon {
+  margin: 0 20px;
+}
+
+.col2 {
+  margin-top: 10px;
+}
+
+.footer{
+  background-color: #959595;
+  color: white;
+  padding-top: 20px;
+}
+
+.footer .row {
+  text-align: center;
+}
 /* --------------------------- Footer --------------------------- */

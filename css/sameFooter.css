@@ -1,0 +1,27 @@
+/* --------------------------- Footer --------------------------- */
+.icon {
+    width: 60px;
+  }
+  
+  .col-6 p{
+    font-size: 20px;
+  }
+  
+  .icon {
+    margin: 0 20px;
+  }
+  
+  .col2 {
+    margin-top: 10px;
+  }
+  
+  .footer{
+    background-color: #959595;
+    color: white;
+    padding-top: 20px;
+  }
+  
+  .footer .row {
+    text-align: center;
+  }
+  /* --------------------------- Footer --------------------------- */

@@ -3,17 +3,64 @@
   <head>
     <title>Criar Conta</title>
     <link rel="stylesheet" href="css/criar_conta.css">
+    <link rel="stylesheet" type="text/css" href="css/sameFooter.css">   <!-- Footer -->
+    <link rel="stylesheet" type="text/css" href="css/same_naologado.css">   <!-- Navbar -->
+    
   </head>
+
+  <style>
+    footer {
+        background-color: #f0f0f0;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .coluna {
+        width: 45%;
+      }
+      
+      .coluna h3 {
+        color: #333;
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      
+      .coluna p {
+        color: #666;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      
+      .coluna ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .coluna ul li {
+        margin-bottom: 10px;
+      }
+      
+      .coluna ul li a {
+        color: #666;
+        font-size: 14px;
+        text-decoration: none;
+      }
+      
+      .coluna ul li a:hover {
+        text-decoration: underline;
+      }
+  </style>
+
   <body>
 	    <!--====================== Navbar ======================-->
     <div class="topnav">
       <div class="container">
           <img src="img/icon_autodeal.png" alt="" width="" height="60px">
-          <!-- <a class="active" href="#home">Home</a>
-          <a href="#news">News</a> -->
           <div class="topnav-right"> 
               <a href="">Login</a>
-              <a href="">Register</a>
+              <a class="active" href="">Register</a>
           </div>
       </div>
   </div>
@@ -34,5 +81,25 @@
       <input type="password" id="password" name="password"><br><br>
       <input type="submit" value="Criar Conta">
     </form>
+    
+    <footer>
+      <div class="coluna">
+      <ul>
+          <li><a href="#">SOBRE NÓS</a></li>
+          <li><a href="#">Ajuda</a></li>
+          <li><a href="#">Contacto</a></li>
+          <li><a href="#">Livro de Reclamações online</a></li>
+          <li><a href="#">Denúncias no site</a></li>
+      </ul>
+      </div>
+      <div class="coluna">
+        <h3>Segue-nos nas redes:</h3>
+        <ul>
+          <li><a href="#">Facebook <i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a href="#">Instagram <i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+          <li><a href="#">Twitter <i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>

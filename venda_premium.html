@@ -3,9 +3,18 @@
 <head>
 	<title>Venda o seu carro</title>
 	<link rel="stylesheet" type="text/css" href="css/venda.css">
+    <link rel="stylesheet" type="text/css" href="css/sameFooter.css">   <!-- Footer -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
+
+<style>
+    #map {
+  height: 400px; /* The height is 400 pixels */
+  width: 100%; /* The width is the width of the web page */
+}
+</style>
+
 <body>
 	<nav>
         <div class="logo">
@@ -16,12 +25,7 @@
             </h1>
         </div>
 		<ul>
-			<li><a href="#">Início</a></li>
-			<li><a href="lista_mecanicos.html">Mecânicos</a></li>
-			<li><a href="#">Sobre nós</a></li>
-			<li><a href="#">Contato</a></li>
-            <li><a href="login.html">PREMIUM</a></li>
-			<li><a href="perfil.html">Perfil</a></li>
+			<li><a href="perfil.html"><i class="fa fa-user" aria-hidden="true"></i>  Perfil</a></li>
 		</ul>
 	</nav>
     <h1>Venda o seu carro</h1>
@@ -92,7 +96,7 @@
 
     <h4>Localização:</h4>
         <div class="info-box">
-            <img src="example.jpg" alt="Imagem de exemplo">
+            <div id="map"></div>
   
             <label for="distrito">Distrito</label>
             <input type="text" id="distrito" name="distrito">
@@ -113,6 +117,15 @@
       </form>
 
     <button type="submit">Publicar</button>
+    
+    
+</body>
+
+<script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+      defer
+    ></script>
+
 
 
 
