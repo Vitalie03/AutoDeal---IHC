@@ -17,7 +17,7 @@
 .column_ {
   float: left;
   width: 50%;
-  padding: 0 10px;
+  padding: 0 5px;
   position: relative;
 }
 
@@ -37,7 +37,14 @@
   padding: 16px;
   text-align: center;
   background-color: #18727B;
-  height: 460px;
+  height: 380px;
+  transition: 0.7s;
+}
+
+/* card hover effect */
+.card_:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0);
+  border-radius: 25px;
 }
 
 .card_ h1{
@@ -53,28 +60,8 @@
   }
 }
 
-/* Style the button and place it in the middle of the container/image */
-.container .btn {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  margin-top: 200px;
-}
-.container .btn:hover {
-  background-color: white;
-}
-
 .card_ img{
-  width: 60%;
+  width: 50%;
 }
 /* --------------------------- Cards --------------------------- */
 
