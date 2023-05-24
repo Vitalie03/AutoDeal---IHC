@@ -48,25 +48,26 @@
                     <label class="InfoTopic" type="title" for="InfoTopic">Informações Pessoais</label><br>
 
                     <label for="nome_completo">Nome Completo</label>
-                    <input type="text" id="nome_completo" name="nome" placeholder="O seu nome...">
+                    <input type="text" id="nome_completo" name="nome" placeholder="O seu nome..." value="Joao Silva">
 
                     <label for="birthday">Data de Nascimento</label>
-                    <input type="date" id="birthday" name="birthday">
+                    <input type="text" id="birthday" name="birthday" value="16/10/2003">
 
-                    <!-- <label for="country">Country</label>
+                    <label for="country">Country</label>
                     <select id="country" name="country">
+                        <option value="portugal">Portugal</option>
                         <option value="australia">Australia</option>
                         <option value="canada">Canada</option>
                         <option value="usa">USA</option>
-                    </select> -->
+                    </select>
 
                     <label class="InfoTopic contactos" type="title" for="InfoTopic">Contactos</label><br>
 
                     <label for="email">Email</label>
-                    <input type="text" id="email" name="email" placeholder="O seu email...">
+                    <input type="text" id="email" name="email" placeholder="O seu email..." value="joao@ua.pt">
 
                     <label for="telefone">Telefone</label>
-                    <input type="text" id="telefone" name="telefone" placeholder="O seu telefone...">
+                    <input type="text" id="telefone" name="telefone" placeholder="O seu telefone..." value="968765137">
                 </form>
             </div>
         </div>
@@ -84,27 +85,26 @@
             <div class="row ">
                 <div class="col-6">
                     <label for="num_cc">Número do Cartão de Crédito</label>
-                    <input type="text" id="num_cc" name="num_cc" placeholder="O seu número de cartão de crédito...">
+                    <input type="text" id="num_cc" name="num_cc" placeholder="O seu número de cartão de crédito..." value="5224 3817 2253 7852">
 
                     <label for="NIF">NIF(nº de identificação fiscal)</label>
-                    <input type="text" id="NIF" name="NIF" placeholder="O seu NIF...">
+                    <input type="text" id="NIF" name="NIF" placeholder="O seu NIF..." value="238839192">
 
                     <label for="IBAN">IBAN</label>
-                    <input type="text" id="IBAN" name="IBAN" placeholder="O seu IBAN...">
+                    <input type="text" id="IBAN" name="IBAN" placeholder="O seu IBAN..." value="PT50000786516595495165162616651544">
                 </div>
                 <div class="col-6">
-                    <label for="country">Country</label>
-                    <select id="country" name="country">
-                        <option value="australia">Australia</option>
-                        <option value="canada">Canada</option>
-                        <option value="usa">USA</option>
-                    </select>
+                    
                 
                     <label for="morada">Morada</label>
-                    <input type="text" id="morada" name="morada" placeholder="A sua morada...">
+                    <input type="text" id="morada" name="morada" placeholder="A sua morada..." value="Largo Conselheiro Queiroz, Aveiro ">
                 
                     <label for="cod_postal">Código Postal</label>
-                    <input type="text" id="cod_postal" name="cod_postal" placeholder="O seu código postal...">
+                    <input type="text" id="cod_postal" name="cod_postal" placeholder="O seu código postal..." value="3800-196">
+                    
+                    <label for="morada">Nº Cartão de cidadão</label>
+                    <input type="text" id="morada" name="morada" placeholder="O seu Nº Cartão de cidadão..." value="5495465165">
+                
                 </div>
             </div>
         </form>
@@ -112,31 +112,24 @@
     <!--====================== PRIMIUM ======================-->
 
 
-    <!--====================== Footer ======================-->
-    <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-6">
-                    <p>SOBRE NÓS</p>
-                    <p>Ajuda</p>
-                    <p>Contacto</p>
-                    <p>Livro de Reclamações</p>
-                    <p>Denúncias</p>
-                </div>
-                <div class="col-6">
-                    <p>Segue-nos nas Redes Sociais</p>
-                    <div class="col1">
-                        <img class="icon" src="img/facebook.png" alt="Facebook">
-                        <img class="icon" src="img/youtube (1).png" alt="Youtube">
-                    </div>
-                    <div class="col2">
-                        <img class="icon" src="img/twitter (1).png" alt="Twitter">
-                        <img class="icon" src="img/instagram.png" alt="Instagram">
-                    </div>
-                </div>
-            </div>
+    <footer>
+        <div class="coluna">
+        <ul>
+            <li><a href="#">SOBRE NÓS</a></li>
+            <li><a href="#">Ajuda</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Livro de Reclamações online</a></li>
+            <li><a href="denuncia.html">Denúncias no site</a></li>
+        </ul>
         </div>
-    </div>
-    <!--====================== Footer ======================-->
+        <div class="coluna">
+          <h3>Segue-nos nas redes:</h3>
+          <ul>
+            <li><a href="#">Facebook <i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="#">Instagram <i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="#">Twitter <i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </footer>
 
 </body>
